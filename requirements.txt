@@ -1,0 +1,20 @@
+# Literature Review Generator – Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core NLP
+spacy>=3.7.0
+# After install run: python -m spacy download en_core_web_sm
+
+# ML / Math
+scikit-learn>=1.4.0
+numpy>=1.26.0
+
+# Sentence embeddings (semantic similarity)
+sentence-transformers>=2.7.0
+
+# Abstractive summarization
+transformers>=4.40.0
+torch>=2.2.0          # CPU build is fine; use torch+cu118 for GPU
+
+# Optional: progress bars
+tqdm>=4.66.0
